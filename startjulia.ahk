@@ -1,4 +1,9 @@
-﻿#SingleInstance force
+/*
+Requires Autohotkey v2
+Tested with Autohotkey v2 H 2.0-alpha on 25 Jul 2019
+*/
+
+#SingleInstance force
 
 ;Setup paths and commands
 cygwin64bin  := A_ScriptDir "\CygwinPortable\App\Runtime\Cygwin\bin" ;https://github.com/MachinaCore/CygwinPortable
